@@ -1,1 +1,81 @@
+<!doctype html>
+<html>
 
+<head>
+	<title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+		<div class="local_nav">
+			<a href="homepage.html"><img src="images/logo.png" alt="TripWise Logo"></a>
+			<nav>
+				<a href="Destinations.html">Destinations</a> |
+				<a href="Forums.html">Forums</a> |
+				<a href="login.html">Account</a>
+			</nav>
+		</div>
+		<div class="site_nav">
+			<nav>
+				<!-- search bar -->
+				<input type="text" placeholder="Search..">
+				<!-- dropdown button in top right -->
+					<button class="dropbtn">Language Select
+      						<i class="fa fa-caret-down"></i>
+    					</button>
+    				<div class="dropdown-content">
+      					<a href="English">English</a>
+      					<a href="Spanish">Spanish</a>
+      					<a href="French">French</a>
+      				</div>
+      			</nav>
+      		</div>
+    	</header>
+
+	<main>
+		<div>
+			<form>
+                	<label for="boardName"></label>
+                	<input type="text" placeholder="Board Name" name="boardName" required>
+                	<label for="newTopic"></label>
+               		<input type="text" placeholder="New Topic" name="newTopic" required>
+		</div>
+		
+		<div>
+			<div>
+				<form>	
+				<label for="postTitle"></label>
+                		<input type="text" placeholder="postTitle" name="postTitle" required>
+                		<label for="email"></label>
+               			<input type="text" placeholder="Email Address" name="email" required>
+			</div>
+			<div>
+				<form>
+				<label for="postBody"></label>
+                		<input type="text" placeholder="Body" name="postBody" required>
+				
+			</div>
+			<div>
+				<button type="submit">Preview</button>
+				<button type="submit">Cancel</button>
+				<button type="submit">Submit</button>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div>
+			<p>Social Media</p>
+			<img src="images/facebook.png">
+            		<img src="images/snapchat.png">
+            		<img src="images/instagram.png">
+            		<img src="images/twitter.png">
+		</div>
+		<div>
+			<a href="#">About Us</a>
+			<a href="#">Contact Us</a>
+			<a href="#">TOS</a>
+		</div>
+	</footer>
+</body>
+</html>
