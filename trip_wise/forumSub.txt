@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Topic Threads</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+		<div class="local_nav">
+			<a href="homepage.html"><img src="images/logo.png" alt="TripWise Logo"></a>
+			<nav>
+				<a href="Destinations.html">Destinations</a> |
+				<a href="forums.html">Forums</a> |
+				<a href="login.html">Account</a>
+			</nav>
+		</div>
+		<div class="site_nav">
+			<nav>
+				<!-- search bar -->
+				<input type="text" placeholder="Search..">
+				<!-- dropdown button in top right -->
+					<button class="dropbtn">Language Select
+      						<i class="fa fa-caret-down"></i>
+    					</button>
+    				<div class="dropdown-content">
+      					<a href="English">English</a>
+      					<a href="Spanish">Spanish</a>
+      					<a href="French">French</a>
+      				</div>
+      			</nav>
+      		</div>
+    	</header>
+
+	<main>
+		<div>
+			<ul><br>
+			<ul>
+                	<button type="submit">Preview</button>
+		</div>
+		<div>	
+			<div>
+				<h2>Jane Doe</h2><br>
+				<img src="images/avatar.png" width="150">
+				<ul>
+				<ul>
+				<ul>
+				<ul>
+			</div>
+			<div>
+				<h2>Posted: [timestamp, date and time]</h2>
+			</div>
+			<div>
+				<p>
+			</div>
+			<div>
+				<div>
+					<h3>Quote</h3>
+				</div>
+				<div>
+					<h3>Liked by: [likes, variable]</h3>
+				</div>
+			</div>
+		</div>
+		<div>	
+			<div>
+				<h2>Jane Doe</h2><br>
+				<img src="images/avatar.png" width="150">
+				<ul>
+				<ul>
+				<ul>
+				<ul>
+			</div>
+			<div>
+				<h2>Posted: [timestamp, date and time]</h2>
+			</div>
+			<div>
+				<p>
+			</div>
+			<div>
+				<div>
+					<h3>Quote</h3>
+				</div>
+				<div>
+					<h3>Liked by: [likes, variable]</h3>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div>
+			<p>Social Media</p>
+			<img src="images/facebook.png">
+            		<img src="images/snapchat.png">
+            		<img src="images/instagram.png">
+            		<img src="images/twitter.png">
+		</div>
+		<div>
+			<a href="#">About Us</a>
+			<a href="#">Contact Us</a>
+			<a href="#">TOS</a>
+		</div>
+	</footer>
+</body>
+</html>
