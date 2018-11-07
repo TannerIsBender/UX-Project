@@ -4,6 +4,7 @@
 <head>
 	<title>New Thread</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
 </head>
 
 <body>
@@ -39,7 +40,7 @@
                 	<label for="boardName"></label>
                 	<input type="text" placeholder="Board Name" name="boardName" required>
                 	<label for="newTopic"></label>
-               		<input type="text" placeholder="New Topic" name="newTopic" required>
+                <input type="text" placeholder="New Topic" name="newTopic" required></form>
 		</div>
 		
 		<div>
@@ -48,12 +49,12 @@
 				<label for="postTitle"></label>
                 		<input type="text" placeholder="postTitle" name="postTitle" required>
                 		<label for="email"></label>
-               			<input type="text" placeholder="Email Address" name="email" required>
+                    <input type="text" placeholder="Email Address" name="email" required></form>
 			</div>
 			<div>
 				<form>
 				<label for="postBody"></label>
-                		<input type="text" placeholder="Body" name="postBody" required>
+                    <input type="text" placeholder="Body" name="postBody" required></form>
 				
 			</div>
 			<div>
@@ -64,18 +65,25 @@
 		</div>
 	</main>
 	<footer>
-		<div>
-			<p>Social Media</p>
-			<img src="images/facebook.png">
-            		<img src="images/snapchat.png">
-            		<img src="images/instagram.png">
-            		<img src="images/twitter.png">
+        <div class="footer">
+        <div class="socialMedia">
+			<ul>
+                <li>Social Media</li>
+            </ul>
+			<ul>
+                <li><a href="#"><img src="images/facebook.png"></a></li> 
+                <li><a href="#"><img src="images/snapchat.png"></a></li>
+    
+                <li><a href="#"><img src="images/instagram.png"></a></li>
+                <li><a href="#"><img src="images/twitter.png"></a></li>
+            </ul>
+            <ul>
+                <li><a href="#">About Us</a></li>
+			     <li><a href="#">Contact Us</a></li>
+			     <li><a href="#">TOS</a></li>
+            </ul>
 		</div>
-		<div>
-			<a href="#">About Us</a>
-			<a href="#">Contact Us</a>
-			<a href="#">TOS</a>
-		</div>
+        </div>
 	</footer>
 </body>
 </html>
