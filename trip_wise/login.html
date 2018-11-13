@@ -5,6 +5,63 @@
 	<title>Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    
+    <style>
+        h1{text-align: center;}
+        .box {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            box-sizing: border-box;
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 10%;
+        }
+        form {
+            text-align: center;
+        }
+        input[type=text],input[type=password] {
+            width: 80%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;         
+            resize: vertical;
+            margin-bottom: 1em;
+        }
+        
+        
+        input[type=submit] {
+            background-color: #4abdac;
+            color: white;
+            padding: 10px 20px;
+            
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 30%;
+            font-size: 1.25em;
+            
+        }
+        input[type=submit]:hover {
+            background-color: #4accac;
+            
+            
+      
+        }
+        
+        footer{
+            position: fixed;
+            bottom: 0;
+        }
+            
+        #signup {float: right;
+                 }
+        
+        a{
+           text-decoration: none; 
+        }
+    
+    </style>
 </head>
 
 <body>
@@ -22,10 +79,7 @@
 				<!-- search bar -->
 				<input type="text" placeholder="Search..">
 				<!-- dropdown button in top right -->
-				<button class="dropbtn">Language Select
-					<!--not exaclty sure what this is, "fa fa-caret-down", but it included it on w3schools so i included it here -->
-      				<i class="fa fa-caret-down"></i>
-    			</button>
+				
     				<div class="dropdown-content">
       					<a href="English">English</a>
       					<a href="Spanish">Spanish</a>
@@ -35,30 +89,24 @@
       	</div>
     </header>
 
-	<main>
+	<main class="box">
+
         <h1>Login</h1>
-		<div>
+		
             <form>
-            <div>
-                <label for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+                <input type="text" placeholder="Username" name="uname" required><br>
 
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-
-                <button type="submit">Login</button>
+                <input type="password" placeholder="Password" name="psw" required><br>
+               
                 <label>
                     <input type="checkbox" checked="checked" name="remember"> Remember me
-                </label>
-            </div>
-
-            <div class="container" style="background-color:#f1f1f1">
-                <button type="button" class="cancelbtn">Cancel</button>
-                <span >Forgot <a href="#">password?</a></span>
-            </div>
+                </label><br><br>
+                
+                <input type="submit" name="Login"><br>
+                 <p>Forgot <a href="#">password?</a></p>          
             </form>
-            <a href="signup.html"> Sign Up</a>
-        </div>
+            <a href="signup.html" id="signup"> Sign Up</a>
+        
 	</main>
 
 	<footer>
