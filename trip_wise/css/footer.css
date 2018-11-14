@@ -1,27 +1,29 @@
- * {
+ 
+/*global style*/
+
+* {
     box-sizing: border-box;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+
     font-weight: 600;
     font-size: 40px;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+
     font-weight: 600;
     font-size: 25px;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+
     font-weight: 600;
     font-size: 22px;
 }
 
 p{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 12px;
 }
@@ -30,29 +32,20 @@ body {
     margin: 0px;
     padding: 0px;
 	font-size: 100%;
-    
-    
+    font-family: 'Montserrat', sans-serif;    
 }
 main {
     width: 80%;
     margin-left: 10%;
 }
 
-p, h1 {
-	font-family: 'Montserrat';
-	font-weight: semi-bold;
+/* Header Start */
+
+.local_nav {
+    float:left;
 }
 
-/* Header Start */.
-.box { 
-
-}
-
-.site_nav {
-	float: right;
-}
-
-.local_nav img {
+.local_logo img {
 	float: left;
 	margin: none;
 	border: none;
@@ -68,20 +61,22 @@ p, h1 {
 
 .local_nav li {
     display: inline;
-	background-color: #FFFFFF;
+	
 	border-radius: 15px;
 	padding: 5px;
-    box-shadow: 2px 2px 2px #888888;
+    
 	font-size: 1.5em;
 	margin-right: 25px;
 }
 
 .local_nav li a {
 	text-decoration: none;
-	color: #ffffff;
+	color: #373737;
 }
 
-
+.site_nav {
+	float: right;
+}
 /* Footer Start */
 footer {
         width: 100%;
