@@ -37,6 +37,14 @@
             margin-bottom: 1em;
         }
         
+        .topform input[type=text] {
+        	width: 80%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;         
+            resize: vertical;
+            margin-bottom: 1em;	
+        }
         
         main button {
             background-color: #4abdac;
@@ -105,7 +113,7 @@
 
 	<main>
 		<div class="boardstart">
-			
+			<form class="topform">
 				<div class="board">
                 	<label for="boardName"></label>
                 	<input type="text" placeholder="Board Name" name="boardName" required>
@@ -114,7 +122,7 @@
                 	<label for="newTopic"></label>
                 	<input type="text" placeholder="New Topic" name="newTopic" required>
               </div>
-
+          	</form>
 		</div>
 		
 		<div>
