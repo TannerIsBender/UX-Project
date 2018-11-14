@@ -9,30 +9,36 @@
 
 <body>
 	<header>
-		<div class="local_nav">
-			<a href="homepage.html"><img src="images/logo.png" alt="TripWise Logo"></a>
-			<nav>
-				<a href="Destinations.html">Destinations</a> |
-				<a href="forums.html">Forums</a> |
-				<a href="login.html">Account</a>
-			</nav>
-		</div>
-		<div class="site_nav">
-			<nav>
-				<!-- search bar -->
-				<input type="text" placeholder="Search..">
-				<!-- dropdown button in top right -->
-					<button class="dropbtn">Language Select
-      						<i class="fa fa-caret-down"></i>
-    					</button>
-    				<div class="dropdown-content">
-      					<a href="English">English</a>
-      					<a href="Spanish">Spanish</a>
-      					<a href="French">French</a>
-      				</div>
-      			</nav>
-      		</div>
-    	</header>
+		<nav>
+			<div class="local_logo">
+				<a href="homepage.html"><img src="images/logo.png" alt="TripWise Logo"></a>
+			</div>
+			<div class="local_nav">
+				<ul>
+					<li><a href="Destinations.html">Destinations</a></li>
+					<li><a href="Forums.html">Forums</a></li>
+					<li><a href="login.html">Account</a></li>
+				</ul>
+			</div>
+			<div class="site_nav">
+				<div>
+					<!-- dropdown button in top right -->
+					<select>
+					  <option value="english">English</option>
+					  <option value="french">French</option>
+					  <option value="german">German</option>
+					</select>
+				</div>
+				<div>
+					<!-- search bar -->
+					<form action="/action_page.php">
+					  <input type="text" placeholder="Search.." name="search">
+					  <button type="submit"><i class="fa fa-search"></i></button>
+					</form>
+				</div>
+			</div>
+		</nav>
+    </header>
 
 	<main>
 		<div>
