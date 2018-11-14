@@ -7,6 +7,67 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
+
+	<style>
+
+	
+
+        main h1{text-align: center;}
+        .box {
+            border-radius: 5px;
+            background-color: #dfdce3;
+            padding: 35px;
+            box-sizing: border-box;
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 1%;
+            margin-bottom: 5%;
+            
+        }
+
+        main form {
+            text-align: center;
+        }
+        .box input[type=text] {
+            width: 80%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;         
+            resize: vertical;
+            margin-bottom: 1em;
+        }
+        
+        
+        main button {
+            background-color: #4abdac;
+            color: white;
+            padding: 10px 20px;
+            
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 30%;
+            font-size: 1.25em;
+            
+        }
+        main button:hover {
+            background-color: #4accac;
+            
+            
+      
+        }
+        
+        
+        main a{
+           text-decoration: none; 
+        }
+    
+
+
+
+	</style>
+
+
 </head>
 
 <body>
@@ -43,35 +104,42 @@
     </header>
 
 	<main>
-		<div>
-			<form>
+		<div class="boardstart">
+			
+				<div class="board">
                 	<label for="boardName"></label>
                 	<input type="text" placeholder="Board Name" name="boardName" required>
+                </div>
+                <div class="topic">	
                 	<label for="newTopic"></label>
-                <input type="text" placeholder="New Topic" name="newTopic" required></form>
+                	<input type="text" placeholder="New Topic" name="newTopic" required>
+              </div>
+
 		</div>
 		
 		<div>
-			<div>
-				<form>	
+			<form class="box">	
+				<div class="title">
 				<label for="postTitle"></label>
                 		<input type="text" placeholder="postTitle" name="postTitle" required>
                 		<label for="email"></label>
-                    <input type="text" placeholder="Email Address" name="email" required></form>
+                    <input type="text" placeholder="Email Address" name="email" required>
 			</div>
-			<div>
-				<form>
-				<label for="postBody"></label>
-                    <input type="text" placeholder="Body" name="postBody" required></form>
+			<div class="body">
 				
+				<label for="postBody"></label>
+                    <input type="text" placeholder="Body" name="postBody" required>				
 			</div>
-			<div>
+			<div class="post">
 				<button type="submit">Preview</button>
 				<button type="submit">Cancel</button>
 				<button type="submit">Submit</button>
 			</div>
+			</form>
 		</div>
 	</main>
+
+
 	<footer>
         <div class="footer">
         <div class="socialMedia">
