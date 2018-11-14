@@ -9,7 +9,17 @@
         * {
     box-sizing: border-box;
 }
-
+        .background-pic {
+            width: 100%;
+            height: auto;
+            
+            
+        }
+        
+        .avatar {
+            z-index: 1;
+            border-radius: 50%;
+        }
         
 /* Create two unequal columns that floats next to each other */
 .column {
@@ -20,7 +30,10 @@
 
 .left {
   width: 40%;
-}
+    
+        }
+        
+
 
 .right {
   width: 60%;
@@ -32,12 +45,15 @@
     display: table;
     clear: both;
 }
-        row {
-            vh: 100;
+       
+        .card {
+            height: 100px;
+            box-shadow: 2px 3px 2px grey;
+            border-radius: 5px;
+            border: 1px solid lightgrey;
+            margin-top: 5px;
         }
-        footer{position: fixed;
-            bottom:0;    
-            }
+        .card p {padding: 2px 20px;}
     
     </style>
 </head>
@@ -75,11 +91,13 @@
     </header>
 
 	<main>
-        <h1>Profile</h1>
+        
+            <img src="images/adventure-albay-clouds-672358.jpg" class="background-pic">
+        
         <div class="row">
 		<div class="column left">
             <div >
-                <img src="images/avatar.png" width="150">
+                <img class="avatar" src="images/avatar.jpg" width="150">
                 <h2>Steve Rogers</h2>
             </div>
             <div>
@@ -98,8 +116,8 @@
         <div class="column right">
             
                 <h2>Contributions</h2>
-                <p>New Tip for food in iceland</p>
-                <p>New Suggestion for places to eat in Saudi Arabia</p>
+                <div class="card"><p>New Tip for food in iceland</p></div>
+            <div class="card"><p>New Suggestion for places to eat in Saudi Arabia</p></div>
             
         </div>
     </div>
