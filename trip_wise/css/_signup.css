@@ -1,0 +1,52 @@
+#signup h1{text-align: center;}
+#signup .box {
+    border-radius: 5px;
+    background-color: #dfdce3;
+    padding: 35px;
+    box-sizing: border-box;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+#signup form {
+    text-align: center;
+}
+#signup input[type=text],input[type=password] {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 1em;
+}
+
+
+#signup input[type=submit] {
+    background-color: #4abdac;
+    color: white;
+    padding: 10px 20px;
+
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+    font-size: 1.25em;
+
+}
+#signup input[type=submit]:hover {
+    background-color: #4accac;
+
+
+}
+
+#signup footer{
+    position: fixed;
+    bottom: 0;
+}
+
+#signup {float: right;
+}
+
+#signup a{
+    text-decoration: none;
+}

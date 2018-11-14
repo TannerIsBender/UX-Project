@@ -5,66 +5,8 @@
 	<title>Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
-    
-    <style>
-        h1{text-align: center;}
-        .box {
-            border-radius: 5px;
-            background-color: #dfdce3;
-            padding: 35px;
-            box-sizing: border-box;
-            width: 60%;
-            margin-left: 20%;
-            margin-top: 10%;
-            
-        }
-        form {
-            text-align: center;
-        }
-        input[type=text],input[type=password] {
-            width: 80%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 4px;         
-            resize: vertical;
-            margin-bottom: 1em;
-        }
-        
-        
-        input[type=submit] {
-            background-color: #4abdac;
-            color: white;
-            padding: 10px 20px;
-            
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 30%;
-            font-size: 1.25em;
-            
-        }
-        input[type=submit]:hover {
-            background-color: #4accac;
-            
-            
-      
-        }
-        
-        footer{
-            position: fixed;
-            bottom: 0;
-        }
-            
-        #signup {float: right;
-                 }
-        
-        a{
-           text-decoration: none; 
-        }
-    
-    </style>
 </head>
 
 <body>
@@ -101,23 +43,23 @@
     </header>
 
 	<main class="box">
+		<div id="login">
+			<h1>Login</h1>
 
-        <h1>Login</h1>
-		
-            <form action="userprofile.html">
-                <input type="text" placeholder="Username" name="uname"><br>
+			<form action="userprofile.html">
+				<input type="text" placeholder="Username" name="uname"><br>
 
-                <input type="password" placeholder="Password" name="psw" ><br>
-               
-                <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
-                </label><br><br>
-                
-                <input type="submit" name="Login"><br>
-                 <p>Forgot <a href="#">password?</a></p>          
-            </form>
-            <a href="signup.html" id="signup"> Sign Up</a>
-        
+				<input type="password" placeholder="Password" name="psw" ><br>
+
+				<label>
+					<input type="checkbox" checked="checked" name="remember"> Remember me
+				</label><br><br>
+
+				<input type="submit" name="Login"><br>
+				<p>Forgot <a href="#">password?</a></p>
+			</form>
+			<a href="signup.html" id="signup"> Sign Up</a>
+		</div>
 	</main>
 
 	<footer>
