@@ -5,10 +5,46 @@
 	<title>User Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <style>
+        * {
+    box-sizing: border-box;
+}
+
+        
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+        row {
+            vh: 100;
+        }
+        footer{position: fixed;
+            bottom:0;    
+            }
+    
+    </style>
 </head>
 
 <body>
 	<header>
+        
 		<div class="local_nav">
 			<a href="homepage.html"><img src="images/logo.png" alt="TripWise Logo"></a>
             
@@ -35,12 +71,14 @@
       				</div>
       		</nav>
       	</div>
+            
     </header>
 
 	<main>
-        <h1>User Profile</h1>
-		<div>
-            <div>
+        <h1>Profile</h1>
+        <div class="row">
+		<div class="column left">
+            <div >
                 <img src="images/avatar.png" width="150">
                 <h2>Steve Rogers</h2>
             </div>
@@ -57,13 +95,14 @@
                 </ul>
             </div>
         </div>
-        <div>
-            <div>
+        <div class="column right">
+            
                 <h2>Contributions</h2>
                 <p>New Tip for food in iceland</p>
                 <p>New Suggestion for places to eat in Saudi Arabia</p>
-            </div>
+            
         </div>
+    </div>
 	</main>
 
 	<footer>
