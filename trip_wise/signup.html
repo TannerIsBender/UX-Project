@@ -8,20 +8,20 @@
     <link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
      <style>
-        h1{text-align: center;}
+        h1{text-align: center;
+            margin-top: 50px;}
         .box {
             border-radius: 5px;
             background-color: #dfdce3;
             padding: 35px;
             box-sizing: border-box;
             width: 60%;
-            margin-left: 20%;
-            margin-top: 10%;
+            margin-left: 20%;            
         }
         form {
             text-align: center;
         }
-        input[type=text],input[type=password] {
+        main input[type=text],input[type=password] {
             width: 80%;
             padding: 12px;
             border: 1px solid #ccc;
@@ -60,6 +60,7 @@
         a{
            text-decoration: none; 
         }
+        main {padding-top: 20px;}
     </style>
 </head>
 
@@ -96,9 +97,10 @@
 		</nav>
     </header>
 
-	<main class="box">
-        <h1>Sign Up</h1>
-		<div>
+	<main >
+        
+		<div class="box">
+            <h1>Sign Up</h1>
             <form>
             <div>
                 <label for="dname"></label>

@@ -17,13 +17,13 @@
             box-sizing: border-box;
             width: 60%;
             margin-left: 20%;
-            margin-top: 10%;
+            margin-top: 40px;
             
         }
         form {
             text-align: center;
         }
-        input[type=text],input[type=password] {
+       main input[type=text],input[type=password] {
             width: 80%;
             padding: 12px;
             border: 1px solid #ccc;
@@ -63,7 +63,7 @@
         a{
            text-decoration: none; 
         }
-    
+    main {padding-top: 30px;}
     </style>
 </head>
 
@@ -100,10 +100,11 @@
 		</nav>
     </header>
 
-	<main class="box">
+	<main >
 
-        <h1>Login</h1>
-		
+        
+        <div class="box">
+		<h1>Login</h1>
             <form action="userprofile.html">
                 <input type="text" placeholder="Username" name="uname"><br>
 
@@ -117,7 +118,7 @@
                  <p>Forgot <a href="#">password?</a></p>          
             </form>
             <a href="signup.html" id="signup"> Sign Up</a>
-        
+        </div>
 	</main>
 
 	<footer>
