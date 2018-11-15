@@ -50,7 +50,9 @@ main {
 }
 
 .local_nav {
+	position: absolute;
     float: center;
+	top: 8%;
 }
 
 .local_logo img {
