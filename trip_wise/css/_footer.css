@@ -102,6 +102,8 @@ footer.socialMedia {
     float: right;
     text-align: center;
     margin-right: 25px;
+	position: absolute;
+	bottom: 20px;
 }
 
 footer li { 
