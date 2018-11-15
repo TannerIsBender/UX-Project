@@ -46,6 +46,8 @@ main {
 
 .local_nav {
     float:left;
+    position: absolute;
+    top: 8%;
 }
 
 .local_logo img {
@@ -53,13 +55,16 @@ main {
 	margin: none;
 	border: none;
 	padding: none;
-	margin-right: 100px;
+	position: absolute;
+	top: 8%;
 }
 
 .local_nav ul {
     list-style-type: none;
     margin: 10px;
     padding: 10px;
+    position: absolute;
+    top: 8%;
 } 
 
 .local_nav li {
@@ -68,7 +73,7 @@ main {
 	border-radius: 15px;
 	padding: 5px;
     
-	font-size: 1.5em;
+	font-size: 1em;
 	margin-right: 25px;
 }
 
