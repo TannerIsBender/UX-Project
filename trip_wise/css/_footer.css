@@ -54,6 +54,8 @@ main {
 }
 
 .local_logo img {
+	position: absolute;
+	top: 5%;
 	float: left;
 	/*margin: none;
 	border: none;
