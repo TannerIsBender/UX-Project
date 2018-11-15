@@ -5,8 +5,50 @@
 	<title>User Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
+    <style>
+        * {
+    box-sizing: border-box;
+}
+        .background-pic {
+            width: 100%;
+            height: auto;
+        }
+        
+        .avatar { 
+            border-radius: 50%;
+        }
+        
+        /* Create two unequal columns that floats next to each other */
+        .column {
+            float: left;
+            padding: 10px;
+        }
+        .left {
+          width: 40%;
+            
+                }
+        .right {
+          width: 60%;
+        }
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+       
+        .card {
+            height: 100px;
+            box-shadow: 2px 3px 2px grey;
+            border-radius: 5px;
+            border: 1px solid lightgrey;
+            margin-top: 5px;
+        }
+        .card p {padding: 2px 20px;}
+    
+    </style>
 </head>
 
 <body>
@@ -45,34 +87,32 @@
     <img src="images/adventure-albay-clouds-672358.jpg" class="background-pic">
 </div>
 	<main>
-		<div id="userprofile">
-			<div class="row">
-				<div class="column left">
-					<div >
-						<img class="avatar" src="images/avatar.jpg" width="150">
-						<h2>Steve Rogers</h2>
-					</div>
-					<div>
-						<h2>BIO</h2>
-						<p>Captain America was the first Marvel Comics character to appear in media outside comics with the release of the 1944 movie serial, Captain America. Since then, the character has been featured in other films and television series. </p>
-					</div>
-					<div>
-						<h3>Places visited</h3>
-						<ul>
-							<li>Germany</li>
-							<li>Spain</li>
-							<li>France</li>
-						</ul>
-					</div>
-				</div>
-				<div class="column right">
-
-					<h2>Contributions</h2>
-					<div class="card"><p>New Tip for food in iceland</p></div>
-					<div class="card"><p>New Suggestion for places to eat in Saudi Arabia</p></div>
-
-				</div>
-		</div>
+        <div class="row">
+		<div class="column left">
+            <div >
+                <img class="avatar" src="images/avatar.jpg" width="150">
+                <h2>Steve Rogers</h2>
+            </div>
+            <div>
+                <h2>BIO</h2>
+                <p>Captain America was the first Marvel Comics character to appear in media outside comics with the release of the 1944 movie serial, Captain America. Since then, the character has been featured in other films and television series. </p>
+            </div>
+            <div>
+                <h3>Places visited</h3>
+                <ul>
+                    <li>Germany</li>
+                    <li>Spain</li>
+                    <li>France</li>
+                </ul>
+            </div>
+        </div>
+        <div class="column right">
+            
+                <h2>Contributions</h2>
+                <div class="card"><p>New Tip for food in iceland</p></div>
+            <div class="card"><p>New Suggestion for places to eat in Saudi Arabia</p></div>
+            
+        </div>
     </div>
 	</main>
 
