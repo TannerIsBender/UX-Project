@@ -49,6 +49,75 @@
 			<div>
 				<h2>Popular Destinations</h2>
 			</div>
+			
+			<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <a href="Destinations.html"> img src="img_nature.jpg" alt="Fiji" onclick="openImg(this);">
+  </div>
+  <div class="column">
+    <a href="Destinations.html"> img src="img_snow.jpg" alt="New Zealand" onclick="openImg(this);">
+  </div>
+  <div class="column">
+    <a href="Destinations.html"> img src="img_mountains.jpg" alt="Iceland" onclick="openImg(this);">
+  </div>
+  <div class="column">
+    <a href="Destinations.html"> img src="img_lights.jpg" alt="Fiji" onclick="openImg(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+			
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+			
+			
 			<div>
 				<a href="Destinations.html"><h3>Fiji</h3><img src="images/fiji.jpg" style="width:100%;"></a>
 			</div>
