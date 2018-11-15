@@ -1,4 +1,4 @@
- 
+e 
 /*global style*/
 
 * {
@@ -63,7 +63,7 @@ main {
 
 .local_nav li {
     display: inline;
-    position: absolute;
+    position: relative;
     left: 0;
     top: 15%;
     width: 50%;
@@ -77,6 +77,8 @@ main {
 
 .site_nav {
 	float: right;
+	position: relative;
+	top: 130px;
 }
 /* Footer Start */
 footer {
