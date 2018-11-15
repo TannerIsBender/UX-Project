@@ -26,19 +26,15 @@
     background-color: #4abdac;
     color: white;
     padding: 10px 20px;
-
     border: none;
     border-radius: 4px;
     cursor: pointer;
     width: 30%;
     font-size: 1.25em;
-
 }
+
 #login input[type=submit]:hover {
     background-color: #4accac;
-
-
-
 }
 
 #login footer{
@@ -46,7 +42,8 @@
     bottom: 0;
 }
 
-#login #signup {float: right;
+#login #signup {
+    float: right;
 }
 
 a{

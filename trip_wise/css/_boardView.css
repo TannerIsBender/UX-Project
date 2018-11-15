@@ -1,0 +1,54 @@
+#board_view .text-right {
+    text-align: right;
+}
+
+#board_view .text-right {
+    float: right;
+}
+
+#board_view .row p {
+    display: contents
+}
+
+
+#board_view .text-left {
+    text-align: left;
+}
+
+#board_view .row {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#board_view .row-content-left {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#board_view .row-content-right {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#board_view .envelop-icon {
+    width: 10%;
+    display: inline-block;
+}
+
+#board_view .row-content {
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+#board_view .forum-topic {
+    width: 80%;
+    display: inline-block;
+}

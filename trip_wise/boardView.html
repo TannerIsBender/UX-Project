@@ -2,77 +2,83 @@
 <html>
 <head>
 	<title>Board View</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/global.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
 </head>
 <body>
-	<header>
-		<nav>
-			<div class="local_logo">
-				<a href="homepage.html"><img src="images/logo.png" alt="TripWise Logo"></a>
-			</div>
-			<div class="local_nav">
-				<ul>
-					<li><a href="Destinations.html">Destinations</a></li>
-					<li><a href="Forums.html">Forums</a></li>
-					<li><a href="login.html">Account</a></li>
-				</ul>
-			</div>
-			<div class="site_nav">
-				<div>
-					<!-- dropdown button in top right -->
-					<select>
-					  <option value="english">English</option>
-					  <option value="french">French</option>
-					  <option value="german">German</option>
-					</select>
-				</div>
-				<div>
-					<!-- search bar -->
-					<form action="/action_page.php">
-					  <input type="text" placeholder="Search.." name="search">
-					  <button type="submit"><i class="fa fa-search"></i></button>
-					</form>
-				</div>
-			</div>
-		</nav>
-    </header>
-    <main>
-    <!-- Start new Topic div -->
-      <div>
-		<p>Board Name</p>
-		<button>Start New Topic</button>
-      </div>
-    <!-- Beginning of Topics -->
-		<div>
-		
-			<!-- One row  -->
+<header>
+	<nav>
+		<div class="local_logo">
+			<a href="homepage.html"><img src="images/logo.png" alt="TripWise Logo"></a>
+		</div>
+		<div class="local_nav">
+			<ul>
+				<li><a href="Destinations.html">Destinations</a></li>
+				<li><a href="Forums.html">Forums</a></li>
+				<li><a href="login.html">Account</a></li>
+			</ul>
+		</div>
+		<div class="site_nav">
 			<div>
-				<img src="images/readTopic.png" height="20" width="20">
-				<div>
-                    <a href="forumSub.html"><p>Topic Title</p></a>
-					<p>Username at TIMESTAMP</p>
+				<!-- dropdown button in top right -->
+				<select>
+					<option value="english">English</option>
+					<option value="french">French</option>
+					<option value="german">German</option>
+				</select>
+			</div>
+			<div>
+				<!-- search bar -->
+				<form action="/action_page.php">
+					<input type="text" placeholder="Search.." name="search">
+					<button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+		</div>
+	</nav>
+</header>
+<main>
+	<div id="board_view">
+		<!-- Start new Topic div -->
+		<div class="row">
+			<p class="text-left">Board Name</p>
+			<button class="text-right float-right">Start New Topic</button>
+		</div>
+		<!-- Beginning of Topics -->
+		<div class="row">
+			<!-- One row  -->
+			<div class="row-content">
+				<div class="envelop-icon">
+					<img src="images/readTopic.png" height="50" width="50">
 				</div>
-				<div>
-					<p>10 Replies</p>
-					<p>300 Views</p>
-				</div>
-				<div>
-					<img src="images/userForumAvatar.png" height="45" width="45">
-				</div>
-				<div>
-					<p>Last Reply</p>
-					<p>Name</p>
-					<p>TIMESTAMP</p>
+				<div class="forum-topic">
+					<div class="row-content-left">
+						<a href="forumSub.html"><p>Topic Title</p></a>
+						<p>By USERNAME at TIMESTAMP</p>
+					</div>
+					<div class="row-content-right">
+						<div>
+							<p>10 Replies</p>
+							<p>300 Views</p>
+						</div>
+						<div>
+							<img src="images/userForumAvatar.png" height="45" width="45">
+						</div>
+						<div>
+							<p>Last Reply</p>
+							<p>Name</p>
+							<p>TIMESTAMP</p>
+						</div>
+					</div>
 				</div>
 			</div>
 			<!-- One row  -->
 			<div>
 				<img src="images/unreadTopic.png" height="20" width="20">
 				<div>
-                    <a href="forumSub.html"><p>Topic Title</p></a>
+					<a href="forumSub.html"><p>Topic Title</p></a>
 					<p>Username at TIMESTAMP</p>
 				</div>
 				<div>
@@ -88,12 +94,11 @@
 					<p>TIMESTAMP</p>
 				</div>
 			</div>
-		</div>
 			<!-- One row  -->
 			<div>
 				<img src="images/readTopic.png" height="20" width="20">
 				<div>
-                    <a href="forumSub.html"><p>Topic Title</p></a>
+					<a href="forumSub.html"><p>Topic Title</p></a>
 					<p>Username at TIMESTAMP</p>
 				</div>
 				<div>
@@ -113,7 +118,7 @@
 			<div>
 				<img src="images/unreadTopic.png" height="20" width="20">
 				<div>
-                    <a href="forumSub.html"><p>Topic Title</p></a>
+					<a href="forumSub.html"><p>Topic Title</p></a>
 					<p>Username at TIMESTAMP</p>
 				</div>
 				<div>
@@ -129,12 +134,12 @@
 					<p>TIMESTAMP</p>
 				</div>
 			</div>
-		
+
 			<!-- One row  -->
 			<div>
 				<img src="images/readTopic.png" height="20" width="20">
 				<div>
-                    <a href="forumSub.html"><p>Topic Title</p></a>
+					<a href="forumSub.html"><p>Topic Title</p></a>
 					<p>Username at TIMESTAMP</p>
 				</div>
 				<div>
@@ -154,7 +159,7 @@
 			<div>
 				<img src="images/unreadTopic.png" height="20" width="20">
 				<div>
-                    <a href="forumSub.html"><p>Topic Title</p></a>
+					<a href="forumSub.html"><p>Topic Title</p></a>
 					<p>Username at TIMESTAMP</p>
 				</div>
 				<div>
@@ -170,12 +175,12 @@
 					<p>TIMESTAMP</p>
 				</div>
 			</div>
-		
+
 			<!-- One row  -->
 			<div>
 				<img src="images/readTopic.png" height="20" width="20">
 				<div>
-                    <a href="forumSub.html"><p>Topic Title</p></a>
+					<a href="forumSub.html"><p>Topic Title</p></a>
 					<p>Username at TIMESTAMP</p>
 				</div>
 				<div>
@@ -195,7 +200,7 @@
 			<div>
 				<img src="images/unreadTopic.png" height="20" width="20">
 				<div>
-                    <a href="forumSub.html"><p>Topic Title</p></a>
+					<a href="forumSub.html"><p>Topic Title</p></a>
 					<p>Username at TIMESTAMP</p>
 				</div>
 				<div>
@@ -211,31 +216,32 @@
 					<p>TIMESTAMP</p>
 				</div>
 			</div>
-		
-    </main>
-    
-  <footer>
-        <div class="footer">
-        <div class="socialMedia">
-			<ul>
-                <li>Social Media</li>
-            </ul>
-			<ul>
-                <li><a href="#"><img src="images/facebook.png"></a></li> 
-                <li><a href="#"><img src="images/snapchat.png"></a></li>
-    
-                <li><a href="#"><img src="images/instagram.png"></a></li>
-                <li><a href="#"><img src="images/twitter.png"></a></li>
-            </ul>
-            <ul>
-                <li><a href="#">About Us</a></li>
-			     <li><a href="#">Contact Us</a></li>
-			     <li><a href="#">TOS</a></li>
-            </ul>
 		</div>
-        </div>
-	</footer>
+	</div>
+</main>
 
-    
+<footer>
+	<div class="footer">
+		<div class="socialMedia">
+			<ul>
+				<li>Social Media</li>
+			</ul>
+			<ul>
+				<li><a href="#"><img src="images/facebook.png"></a></li>
+				<li><a href="#"><img src="images/snapchat.png"></a></li>
+
+				<li><a href="#"><img src="images/instagram.png"></a></li>
+				<li><a href="#"><img src="images/twitter.png"></a></li>
+			</ul>
+			<ul>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">TOS</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
+
 </body>
 </html>
