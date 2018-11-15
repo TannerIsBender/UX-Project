@@ -55,6 +55,7 @@ main {
 	margin: none;
 	border: none;
 	padding: none;
+	position: fixed;
 }
 
 .local_nav ul {
