@@ -43,6 +43,11 @@ main {
 
 /* Header Start */
 
+.header_global {
+	position: relative;
+	top: 0px;
+	width: cover;
+}
 
 .local_nav {
     float: center;
