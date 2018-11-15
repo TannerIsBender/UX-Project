@@ -45,7 +45,10 @@ main {
 
 
 .local_nav {
-    float:left;
+    position: relative;
+    top: 10%;
+    right: 30%;
+    /*float: right;*/
 }
 
 .local_logo img {
