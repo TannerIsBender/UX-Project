@@ -32,8 +32,8 @@ body {
     margin: 0px;
     padding: 0px;
 	font-size: 100%;
-    	font-family: 'Montserrat', sans-serif;
-    	width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
 }
 main {
     width: 80%;
@@ -59,9 +59,9 @@ main {
 	position: absolute;
 	top: 5%;
 	float: left;
-	/*margin: none;
+	margin: none;
 	border: none;
-	padding: none;*/
+	padding: none;
 }
 
 .local_nav ul {
@@ -73,10 +73,10 @@ main {
 .local_nav li {
     display: inline;
     position: absolute;
-    left: 0;
-    top: 50%;
+    left: 50%;
+    top: 60%;
     width: 50%;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .local_nav li a {
@@ -86,37 +86,36 @@ main {
 
 .site_nav {
 	float: right;
-	position: absolute;
-    	bottom: 8px;
-    	right: 16px;
-}
-/* Footer Start */
-footer {
-        width: 100%;
-        height: 110px;
-        background-color: #fc4a1a;
-        color: white;
-        text-align: center;
-        margin: 0px;
 }
 
-footer .socialMedia {
-        float: center;
-        text-align: center;
-        margin-right: 25px;
+/* Footer Start */
+footer {
+    width: 100%;
+    height: 110px;
+    background-color: #fc4a1a;
+    color: white;
+    text-align: center;
+    margin: 0px;
 }
+
+footer.socialMedia {
+    float: center;
+    text-align: center;
+    margin-right: 25px;
+}
+
 footer li { 
-        display: inline-block;
-        margin-right: 10px;
+    display: inline-block;
+    margin-right: 10px;
 }
 footer li a { 
-        color: white;
-        text-decoration: none;   
+    color: white;
+    text-decoration: none;   
 }
 
 footer li a:hover { 
-        color: darkgrey;
-        cursor: pointer;   
+    color: darkgrey;
+    cursor: pointer;   
 }
 
 footer img {
