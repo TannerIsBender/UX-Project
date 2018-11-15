@@ -46,7 +46,7 @@ main {
 
 .local_nav {
     float:left;
-    position: fixed;
+    position: relative;
     top: 10px;
 }
 
@@ -55,7 +55,7 @@ main {
 	margin: none;
 	border: none;
 	padding: none;
-	position: fixed;
+	position: relative;
 	top: 1px;
 }
 
@@ -63,7 +63,7 @@ main {
     list-style-type: none;
     margin: 10px;
     padding: 10px;
-    position: fixed;
+    position: relative;
     left: 50px;
 } 
 
