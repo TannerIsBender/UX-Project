@@ -85,6 +85,8 @@ main {
 }
 
 .site_nav {
+	position: absolute;
+	top: 80%;
 	float: right;
 }
 
