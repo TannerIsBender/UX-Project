@@ -62,15 +62,15 @@ main {
 
 .local_nav ul {
     list-style-type: none;
-    margin: 30px;
-    padding: 30px;
+    margin: 5px;
+    padding: 5px;
 } 
 
 .local_nav li {
     display: inline;
     position: relative;
     left: 0;
-    top: 30%;
+    top: 80%;
     width: 50%;
     text-align: center;
 }
