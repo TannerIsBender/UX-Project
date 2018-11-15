@@ -63,11 +63,11 @@ main {
 
 .local_nav li {
     display: inline;
-	
-	border-radius: 15px;
-	padding: 5px;
-	font-size: 1em;
-	margin-right: 25px;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    width: 50%;
+    text-align: center;
 }
 
 .local_nav li a {
