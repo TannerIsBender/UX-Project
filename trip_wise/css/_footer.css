@@ -47,7 +47,6 @@ main {
 	position: relative;
 	top: 0px;
 	width: cover;
-	height: 15%;
 }
 
 .local_nav {
@@ -73,7 +72,7 @@ main {
 
 .local_nav li {
     display: inline;
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 60%;
     width: 50%;
