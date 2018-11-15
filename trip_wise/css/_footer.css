@@ -46,8 +46,6 @@ main {
 
 .local_nav {
     float:left;
-    position: absolute;
-    top: 30px;
 }
 
 .local_logo img {
@@ -55,16 +53,12 @@ main {
 	margin: none;
 	border: none;
 	padding: none;
-	position: absolute;
-	top: 1px;
 }
 
 .local_nav ul {
     list-style-type: none;
     margin: 10px;
     padding: 10px;
-    position: absolute;
-    top: 30px;
 } 
 
 .local_nav li {
@@ -74,21 +68,15 @@ main {
 	padding: 5px;
 	font-size: 1em;
 	margin-right: 25px;
-	position: absolute;
-	top: 30px;
 }
 
 .local_nav li a {
 	text-decoration: none;
 	color: #373737;
-	position: absolute;
-	top: 30px;
 }
 
 .site_nav {
 	float: right;
-	position; absolute
-	top: 40px;
 }
 /* Footer Start */
 footer {
@@ -101,7 +89,7 @@ footer {
 }
 
 footer .socialMedia {
-        float: right;
+        float: center;
         text-align: center;
         margin-right: 25px;
 }
