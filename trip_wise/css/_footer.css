@@ -80,7 +80,7 @@ main {
 .local_nav li a {
 	text-decoration: none;
 	color: #373737;
-	position: fixed;
+	position: relative;
 	top: 5px;
 }
 
