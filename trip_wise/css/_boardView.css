@@ -36,7 +36,7 @@
     vertical-align: middle;
 }
 
-.counter, .reply {
+#board_view .counter, .reply {
     text-align: center;
     border: 1px solid black;
     border-radius: 25px;
