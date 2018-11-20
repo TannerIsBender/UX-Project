@@ -102,8 +102,7 @@ footer {
 footer.socialMedia {
     float: right;
     text-align: center;
-    /*margin-right: 25px;*/
-	padding: 25px;
+    margin-right: 25px;
 }
 
 footer li { 
