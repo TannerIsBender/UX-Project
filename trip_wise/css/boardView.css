@@ -126,6 +126,8 @@ footer img {
 
 #board_view .text-right {
     float: right;
+    background-color: #4abdac;
+	color: white;
 }
 
 #board_view .row p {
@@ -144,6 +146,7 @@ footer img {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
+	background-color: #dfdce3;
 }
 
 #board_view .row-content-left {
@@ -169,13 +172,19 @@ footer img {
 }
 
 #board_view .envelop-icon {
-    width: 5%;
+    width: 3%;
     display: inline-block;
+    vertical-align: middle;
+}
+
+#board_view .envelop-icon img {
+	height: 25px;
+	width: 25px;
 }
 
 #board_view .row-content {
     display: inline-block;
-    height: 200px;
+    height: 70px;
     width: 112%;
     vertical-align: middle;
 }
