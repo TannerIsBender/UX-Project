@@ -41,6 +41,18 @@ main {
     clear: both;
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Header Start */
 
 .header_global {
@@ -89,6 +101,7 @@ main {
 	float: right;
 	padding: 20px;
 }
+
 
 /* Footer Start */
 footer {
