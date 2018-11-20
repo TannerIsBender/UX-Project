@@ -60,6 +60,12 @@ p span {
 	margin-right: 100px;
 }
 
+#main {
+    float: left;
+    /* width: 90%; */
+    width: 73%;
+}
+
 .local_nav ul {
     list-style-type: none;
     margin: 10px;
@@ -97,6 +103,8 @@ p span {
 
 #forum_view .text-right {
     text-align: right;
+    background-color: #4abdac;
+	color: white;
 }
 
 #forum_view .text-right {
@@ -113,11 +121,12 @@ p span {
     border-radius: 15px;
 }
 
-#forum_view .section-main {
+#forum_view .category {
+	background-color: #dfdce3;
     display: inline-block;
     position: relative;
     border: 1px solid black;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -138,14 +147,25 @@ p span {
     display: inline-block;
     position: relative;
     border: 1px solid black;
-    width: 20%;
     padding: 10px;
     margin-bottom: 20px;
+    background-color: #dfdce3;
+}
+
+#sidebar {
+	float: right; 
+	width: 25%;
+	min-height: 400px;
 }
 
 
 #forum_view .row p {
-    display: contents
+    display: contents;
+}
+
+#forum_view {
+	margin: auto;
+	overflow:auto;
 }
 
 
