@@ -95,7 +95,8 @@ footer {
     background-color: #FF6347;
     color: white;
     text-align: right;
-    margin: 15px;
+    margin: 20px;
+	margin-top: 20px;
 }
 
 footer.socialMedia {
