@@ -102,7 +102,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  cursor: default;
 }
 
 .search {
@@ -123,6 +123,7 @@ main {
 .search > div {
   display: inline-block;
   position: relative;
+  cursor: pointer;
 }
 
 .search > div:after {
