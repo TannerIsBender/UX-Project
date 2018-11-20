@@ -99,12 +99,12 @@ footer {
     background-color: #FF6347;
     color: white;
     text-align: right;
-	position: absolute;
-	bottom: 10px;
 }
 
 footer.socialMedia {
-    float: right;
+    position: absolute;
+	bottom: 10px;
+	float: right;
     text-align: center;
     margin-right: 25px;
 }
