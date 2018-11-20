@@ -4,9 +4,103 @@
 	<title>Board View</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/boardView.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
 	   <style>
+	   #board_view .text-right {
+    text-align: right;
+}
+
+#board_view .text-right {
+    float: right;
+    background-color: #4abdac;
+	color: white;
+}
+
+#board_view .row p {
+    display: contents
+}
+
+
+#board_view .text-left {
+    text-align: left;
+}
+
+#board_view .row {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+	background-color: #dfdce3;
+}
+
+#board_view .row-content-left {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#board_view .row-content-right {
+    width: 20%;
+    /* display: inline-block; */
+    vertical-align: middle;
+    display: flex;
+    float: right;
+}
+
+#board_view .counter, .reply {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 200px;
+    margin: 5px;
+}
+
+#board_view .envelop-icon {
+    width: 3%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#board_view .envelop-icon img {
+	height: 25px;
+	width: 25px;
+}
+
+#board_view .row-content {
+    display: inline-block;
+    height: 70px;
+    width: 112%;
+    vertical-align: middle;
+}
+
+#board_view .forum-topic {
+    width: 80%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.profile-picture {  
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+.avatar {
+    height: 45;
+    width: 45;
+    width: 65px;
+    position: relative;
+}
         * {
 			box-sizing: border-box;
 		}
@@ -50,37 +144,37 @@
     </style>
 </head>
 <body>
-<header>
-		<nav>
-			<div class="local_logo">
-				<a href="homepage.html"><img src="images/logo.png" alt="TripWise Logo"></a>
-			</div>
-			<div class="local_nav">
-				<ul>
-					<li><a href="Destinations.html">Destinations</a></li>
-					<li><a href="Forums.html">Forums</a></li>
-					<li><a href="login.html">Account</a></li>
-				</ul>
-			</div>
-			<div class="site_nav">
-				<div>
-					<!-- dropdown button in top right -->
-					<select>
-					  <option value="english">English</option>
-					  <option value="french">French</option>
-					  <option value="german">German</option>
-					</select>
-				</div>
-				<div>
-					<!-- search bar -->
-					<form action="/action_page.php">
-					  <input type="text" placeholder="Search.." name="search">
-					  <button type="submit"><i class="fa fa-search"></i></button>
-					</form>
-				</div>
-			</div>
-		</nav>
-    </header>
+<nav>
+    <div class="header_global"> 
+      <div class="local_logo">
+        <a href="homepage.html"><img src="images/tripwise-logo.png" alt="Tripwise Logo" height="115"></a>
+      </div>
+    <div class="local_nav">
+        <ul>
+          <li><a href="Destinations.html">DESTINATIONS</a></li>
+          <li><a href="Forums.html">FORUMS</a></li>
+          <li><a href="login.html">ACCOUNT</a></li>
+        </ul>
+      </div>
+      <div class="site_nav">
+        <div>
+          <!-- dropdown button in top right -->
+          <select>
+            <option value="english">English</option>
+            <option value="french">French</option>
+            <option value="german">German</option>
+          </select>
+        </div>
+        <div>
+          <!-- search bar -->
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
 <main>
 	<div id="board_view">
 		<!-- Start new Topic div -->
@@ -347,24 +441,22 @@
 </main>
 
 <footer>
-	<div class="footer">
-		<div class="socialMedia">
-			<ul>
-				<li>Social Media</li>
-			</ul>
-			<ul>
-				<li><a href="#"><img src="images/facebook.png"></a></li>
-				<li><a href="#"><img src="images/snapchat.png"></a></li>
-
-				<li><a href="#"><img src="images/instagram.png"></a></li>
-				<li><a href="#"><img src="images/twitter.png"></a></li>
-			</ul>
-			<ul>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Contact Us</a></li>
-				<li><a href="#">TOS</a></li>
-			</ul>
-		</div>
+	<br><br>
+        <div class="footer">	
+        <div class="socialMedia">            
+            <ul>
+                <li><a href="#"><img src="images/facebook-icon.png"></a></li> 
+                <li><a href="#"><img src="images/snapchat-icon.png"></a></li>
+    
+                <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                <li><a href="#"><img src="images/twitter-icon.png"></a></li>
+            </ul>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                 <li><a href="#">Contact Us</a></li>
+                 <li><a href="#">TOS</a></li>
+            </ul>
+        </div>
 	</div>
 </footer>
 

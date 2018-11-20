@@ -60,42 +60,94 @@
         a{
            text-decoration: none; 
         }
+        #signup h1{text-align: center;}
+#signup .box {
+    border-radius: 5px;
+    background-color: #dfdce3;
+    padding: 35px;
+    box-sizing: border-box;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+#signup form {
+    text-align: center;
+}
+#signup input[type=text],input[type=password] {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 1em;
+}
+
+
+#signup input[type=submit] {
+    background-color: #4abdac;
+    color: white;
+    padding: 10px 20px;
+
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+    font-size: 1.25em;
+
+}
+#signup input[type=submit]:hover {
+    background-color: #4accac;
+
+
+}
+
+#signup footer{
+    position: fixed;
+    bottom: 0;
+}
+
+#signup {float: right;
+}
+
+#signup a{
+    text-decoration: none;
+}
         main {padding-top: 20px;}
     </style>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="local_logo">
-                <a href="homepage.html"><img src="images/logo.png" alt="TripWise Logo"></a>
-            </div>
-            <div class="local_nav">
-                <ul>
-                    <li><a href="Destinations.html">Destinations</a></li>
-                    <li><a href="Forums.html">Forums</a></li>
-                    <li><a href="login.html">Account</a></li>
-                </ul>
-            </div>
-            <div class="site_nav">
-                <div>
-                    <!-- dropdown button in top right -->
-                    <select>
-                      <option value="english">English</option>
-                      <option value="french">French</option>
-                      <option value="german">German</option>
-                    </select>
-                </div>
-                <div>
-                    <!-- search bar -->
-                    <form action="/action_page.php">
-                      <input type="text" placeholder="Search.." name="search">
-                      <button type="submit"><i class="fa fa-search"></i></button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <nav>
+    <div class="header_global"> 
+      <div class="local_logo">
+        <a href="homepage.html"><img src="images/tripwise-logo.png" alt="Tripwise Logo" height="115"></a>
+      </div>
+    <div class="local_nav">
+        <ul>
+          <li><a href="Destinations.html">DESTINATIONS</a></li>
+          <li><a href="Forums.html">FORUMS</a></li>
+          <li><a href="login.html">ACCOUNT</a></li>
+        </ul>
+      </div>
+      <div class="site_nav">
+        <div>
+          <!-- dropdown button in top right -->
+          <select>
+            <option value="english">English</option>
+            <option value="french">French</option>
+            <option value="german">German</option>
+          </select>
+        </div>
+        <div>
+          <!-- search bar -->
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
 
     <main >
         
@@ -129,14 +181,15 @@
     </main>
 
     <footer>
-        <div class="footer">
-        <div class="socialMedia">
+    <br><br>
+        <div class="footer">    
+        <div class="socialMedia">            
             <ul>
-                <li><a href="#"><img src="images/facebook.png"></a></li> 
-                <li><a href="#"><img src="images/snapchat.png"></a></li>
+                <li><a href="#"><img src="images/facebook-icon.png"></a></li> 
+                <li><a href="#"><img src="images/snapchat-icon.png"></a></li>
     
-                <li><a href="#"><img src="images/instagram.png"></a></li>
-                <li><a href="#"><img src="images/twitter.png"></a></li>
+                <li><a href="#"><img src="images/instagram-icon.png"></a></li>
+                <li><a href="#"><img src="images/twitter-icon.png"></a></li>
             </ul>
             <ul>
                 <li><a href="#">About Us</a></li>
@@ -144,7 +197,7 @@
                  <li><a href="#">TOS</a></li>
             </ul>
         </div>
-        </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>

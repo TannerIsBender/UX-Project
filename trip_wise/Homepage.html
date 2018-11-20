@@ -3,45 +3,13 @@
 <head>
     <head>
 	<title>Home</title>
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
-   	<link rel="stylesheet" type="text/css" href="css/global.css">
+   	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
-    </head>
+    
 
-<body>
-	<nav>
-		<div class="header_global">	
-			<div class="local_logo">
-				<a href="homepage.html"><img src="images/tripwise-logo.png" alt="Tripwise Logo" height="115"></a>
-			</div>
-		<div class="local_nav">
-				<ul>
-					<li><a href="Destinations.html">DESTINATIONS</a></li>
-					<li><a href="Forums.html">FORUMS</a></li>
-					<li><a href="login.html">ACCOUNT</a></li>
-				</ul>
-			</div>
-			<div class="site_nav">
-				<div>
-					<!-- dropdown button in top right -->
-					<select>
-					  <option value="english">English</option>
-					  <option value="french">French</option>
-					  <option value="german">German</option>
-					</select>
-				</div>
-				<div>
-					<!-- search bar -->
-					<form action="/action_page.php">
-					  <input type="text" placeholder="Search.." name="search">
-					  <button type="submit"><i class="fa fa-search"></i></button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</nav>
+
 	
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -58,7 +26,7 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  top: 120px;
+  top: 10px;
 }
 
 .hero-text {
@@ -86,26 +54,76 @@ body, html {
   color: white;
 }
 
-.column {
+
+.Tipimg{
+    max-width: 33%;
+    position: relative;
+    text-align: left;
+    color: #ffffff;
     float: left;
-    width: 300px;
-    padding: 25px;
+    margin-bottom: 25px;
+    
+}
+ .Tips{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    font-size: 2em;
+    color: #ffffff;
+    background: rgba(00, 00, 00, 0.6);
+    padding: 0;
 }
 
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-    padding: 100px;
+footer {
+  clear: both;
 }
+
+main img{ 
+                width: 90%;
+                height: 200px;
+               
+            }
+
+
 
 </style>
 </head>
 <body>
+  <nav>
+    <div class="header_global"> 
+      <div class="local_logo">
+        <a href="homepage.html"><img src="images/tripwise-logo.png" alt="Tripwise Logo" height="115"></a>
+      </div>
+    <div class="local_nav">
+        <ul>
+          <li><a href="Destinations.html">DESTINATIONS</a></li>
+          <li><a href="Forums.html">FORUMS</a></li>
+          <li><a href="login.html">ACCOUNT</a></li>
+        </ul>
+      </div>
+      <div class="site_nav">
+        <div>
+          <!-- dropdown button in top right -->
+          <select>
+            <option value="english">English</option>
+            <option value="french">French</option>
+            <option value="german">German</option>
+          </select>
+        </div>
+        <div>
+          <!-- search bar -->
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
 
 <div class="hero-image">
   <div class="hero-text">
+
     <h2 style>DESTINATION SEARCH</h2>
     <p><div>
 					
@@ -124,30 +142,32 @@ body, html {
 </div>
 
 	<main>
-		<br><br><br><br><br><br><br>
+		<br>
 		<div>
 			<div>
 				<h2>Popular Destinations</h2>
 			</div>		
 
 			
-			</div class="row">
+			</div >
   
-  				<div class="column"><a href="Destinations.html"><h3>FIJI</h3><img src="images/fiji.jpg" width="300" height="200"></a></div>
- 				<div class="column"><a href="Destinations.html"><h3>NEW ZEALAND</h3><img src="images/newzealand.jpg" width="300" height="200"></a></div>
-  				<div class="column"><a href="Destinations.html"><h3>ICELAND</h3><img src="images/iceland.jpg" width="300" height="200"></a></div>
+  				<div class="Tipimg"><a href="Destinations.html"><h3 class="Tips">FIJI</h3><img src="images/fiji.jpg" </a></div>
+ 				<div class="Tipimg"><a href="Destinations.html"><h3 class="Tips">NEW ZEALAND</h3><img src="images/newzealand.jpg" "></a></div>
+  				<div class="Tipimg"><a href="Destinations.html"><h3 class="Tips">ICELAND</h3><img src="images/iceland.jpg" </a></div>
 				
 			</div>
 			
 			
 			
 		</div>
+
 			
 	</main>
 	
 <footer>
-	<br><br>
-        <div class="footer">	
+  <br><br>
+  
+        <div class="footer">  
         <div class="socialMedia">            
             <ul>
                 <li><a href="#"><img src="images/facebook-icon.png"></a></li> 
@@ -162,7 +182,7 @@ body, html {
                  <li><a href="#">TOS</a></li>
             </ul>
         </div>
-	</div>
+  </div>
 </footer>
 
 </body>
