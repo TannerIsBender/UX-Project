@@ -1,0 +1,171 @@
+
+/*global style*/
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+
+    font-weight: 600;
+    font-size: 40px;
+}
+
+h2 {
+
+    font-weight: 600;
+    font-size: 25px;
+}
+
+h3 {
+
+    font-weight: 600;
+    font-size: 22px;
+}
+
+p{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+	font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+main {
+    width: 80%;
+    margin-left: 10%;
+    clear: both;
+}
+
+p span {
+    display: block;
+}
+
+/* Header Start */
+
+
+.local_nav {
+    float:left;
+}
+
+.local_logo img {
+	float: left;
+	margin: none;
+	border: none;
+	padding: none;
+	margin-right: 100px;
+}
+
+.local_nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+} 
+
+.local_nav li {
+    display: inline;
+	
+	border-radius: 15px;
+	padding: 5px;
+    
+	font-size: 1.5em;
+	margin-right: 25px;
+}
+
+.local_nav li a {
+	text-decoration: none;
+	color: #373737;
+}
+
+.site_nav {
+	float: right;
+}
+/* Main Start */
+#subForum_view .text-right {
+    float: right;
+    text-align: right;
+}
+
+#subForum_view .row p {
+    display: contents
+}
+
+#subForum_view .text-left {
+    text-align: left;
+}
+
+#subForum_view .row {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#subForum_view .body-text {
+    border: 1px solid black;
+}
+#subForum_view .body-footer {
+	padding-left: 10px;
+    border: 1px solid black;
+
+}
+
+#subForum_view .section-left {
+    border: 1px solid black;
+
+}
+
+#subForum_view .section-right {
+    border: 1px solid black;
+	width: 50%;
+}
+
+#subForum_view .test {
+    border: 1px solid black;
+	width: 10%;
+	text-align: center;
+	
+}
+
+
+/* Footer Start */
+footer {
+	width: 100%;
+	height: 110px;
+	background-color: #FF6347;
+	color: white;
+	text-align: center;
+	margin: 0px;
+}
+
+footer .socialMedia {
+	float: right;
+	text-align: center;
+	margin-right: 25px;
+	bottom: 20px;
+}
+footer li { 
+	display: inline-block;
+	margin-right: 10px;
+}
+footer li a { 
+	color: white;
+	text-decoration: none;   
+}
+
+footer li a:hover { 
+	color: darkgrey;
+	cursor: pointer;   
+}
+
+footer img {
+    height: 40px;
+}
+
+

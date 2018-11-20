@@ -4,7 +4,7 @@
 	<title>Forums</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/forum.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
 </head>
 <body>
@@ -41,90 +41,109 @@
     </header>
 
     <main>
-    	<div>
-            <div>
-                <H1>Forums</H1>
-                 <a href="newThread.html">Start New Topic
-                </a></div>
+    	<div id="forum_view">
+		<!-- Start new Topic div -->
+			<div class="row">
+				<p class="text-left">Forums</p>
+				<button class="text-right float-right">Start New Topic</button>
+			</div>
+
+			<div id="main">
+				<div class="category">
+					<H2>Official</H2>
+					<div class="board-row">
+						<img src="./images/announcement.png">
+						<a href="boardView.html"><h3>Announcements</h3></a>
+						<p>All Trip Wise announcements will be posted in this board.</p>
+					</div>
+					<div class="board-row">
+						<img src="./images/giveaway.png">
+						<a href="boardView.html"><h3>Giveaways</h3></a>
+						<p>All Official Giveaways will be hosted here.</p>
+					</div>
+				</div>
+				<div class="category">
+					<H2>Community</H2>
+					<div class="board-row">
+						<img src="./images/general.png">
+						<a href="boardView.html"><h3>General Discussions</h3></a>
+						<p>Interact with our amazing community about anything!</p>
+					</div>
+					<div class="board-row">
+						<img src="./images/intro.png">
+						<a href="boardView.html"><h3>Introductions</h3></a>
+						<p>Are you new? Tell us your travel plans.</p>
+					</div>
+					<div class="board-row">
+						<img src="./images/events.png">
+						<a href="boardView.html"><h3>Events</h3></a>
+						<p>Events here are posted by members of the community!</p>
+					</div>
+					<div class="board-row">
+						<img src="./images/misc.png">
+						<a href="boardView.html"><h3>Misc</h3></a>
+						<p>All miscellaneous threads will be posted in this board.</p>
+					</div>
+				</div>
+        </div>
+        <div id = "sidebar">
+            <div class="section-right">
+                <h3>New Topics</h3>
+                <div class="row">
+					<img class="newTopics-avatar" src="images/userForumAvatar.png" height="70" width="55">
+                    <h4>Topic Title<br>
+					<p>By Author Posted TIME</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="images/userForumAvatar.png" height="70" width="55">
+                    <h4>Topic Title<br>
+					<p>By Author Posted TIME</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="images/userForumAvatar.png" height="70" width="55">
+                    <h4>Topic Title<br>
+					<p>By Author Posted TIME</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="images/userForumAvatar.png" height="70" width="55">
+                    <h4>Topic Title<br>
+					<p>By Author Posted TIME</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="images/userForumAvatar.png" height="70" width="55">
+                    <h4>Topic Title<br>
+					<p>By Author Posted TIME</p>
+					</h4>
+                </div>             
             </div>
-            <div>
-                <H2>Official</H2>
-                <div>
-                    <img>
-                    <a href="boardView.html"><h3>Announcements</h3></a>
-                </div>
-                <div>
-                    <img>
-                    <a href="boardView.html"><h3>Misc</h3></a>
-                </div>
-                <div>
-                    <img>
-                    <a href="boardView.html"><h3>Giveaways</h3></a>
-                </div>
-            </div>
-            <div>
-                <H2>Community</H2>
-                <div>
-                    <img>
-                    <a href="boardView.html"><h3>General Discussions</h3></a>
-                </div>
-                <div>
-                    <img>
-                    <a href="boardView.html"><h3>Introductions</h3></a>
-                </div>
-                <div>
-                    <img>
-                    <a href="boardView.html"><h3>Events</h3></a>
-                    <a href="">USA</a>
-                    <a href="">Germany</a>
-                    <a href="">France</a>
-                    <a href="">Other</a>
-                </div>
-            </div>
-        
-        <div>
-            <div>
-                <img src="images/localfood.jpg" width="150px">
-            </div>
-            <div>
-                <h3>News Topics</h3>
-                <div>
-                    <h4>Topic Title</h4>
-                    <p>By Author Posted TIME</p>
-                </div>
-                <div>
-                    <h4>Topic Title</h4>
-                    <p>By Author Posted TIME</p>
-                </div>
-                <div>
-                    <h4>Topic Title</h4>
-                    <p>By Author Posted TIME</p>
-                </div>
-                <div>
-                    <h4>Topic Title</h4>
-                    <p>By Author Posted TIME</p>
-                </div>
-                <div>
-                    <h4>Topic Title</h4>
-                    <p>By Author Posted TIME</p>
-                </div>                
-            </div>
-            <div>
+			<br>
+            <div class="section-right">
                 <h3>Top Contributors</h3>
-                <div>
-                     <h4>Display Name</h4>
-                    <p>Reputation #</p>
-                </div>
-                <div>
-                    <h4>Display Name</h4>
-                    <p>Reputation #</p>
-                </div>
-                <div>
-                    <h4>Display Name</h4>
-                    <p>Reputation #</p>
-                </div>
+                <div class="row">
+					<img class="newTopics-avatar" src="images/userForumAvatar.png" height="70" width="55">
+                    <h4>Display Name<br>
+					<p>Reputation #</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="images/userForumAvatar.png" height="70" width="55">
+                    <h4>Display Name<br>
+					<p>Reputation #</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="images/userForumAvatar.png" height="70" width="55">
+                    <h4>Display Name<br>
+					<p>Reputation #</p>
+					</h4>
+                </div>  
             </div>
         </div>
+	</div>
 </main>
     <footer>
         <div class="footer">

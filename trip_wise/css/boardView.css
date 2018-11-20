@@ -1,0 +1,207 @@
+
+/*global style*/
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+
+    font-weight: 600;
+    font-size: 40px;
+}
+
+h2 {
+
+    font-weight: 600;
+    font-size: 25px;
+}
+
+h3 {
+
+    font-weight: 600;
+    font-size: 22px;
+}
+
+p{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+	font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+main {
+    width: 80%;
+    margin-left: 10%;
+    clear: both;
+}
+
+p span {
+    display: block;
+}
+
+/* Header Start */
+
+
+.local_nav {
+    float:left;
+}
+
+.local_logo img {
+	float: left;
+	margin: none;
+	border: none;
+	padding: none;
+	margin-right: 100px;
+}
+
+.local_nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+} 
+
+.local_nav li {
+    display: inline;
+	
+	border-radius: 15px;
+	padding: 5px;
+    
+	font-size: 1.5em;
+	margin-right: 25px;
+}
+
+.local_nav li a {
+	text-decoration: none;
+	color: #373737;
+}
+
+.site_nav {
+	float: right;
+}
+
+/* Footer Start */
+footer {
+	width: 100%;
+	height: 110px;
+	background-color: #FF6347;
+	color: white;
+	text-align: center;
+	margin: 0px;
+}
+
+footer .socialMedia {
+	float: right;
+	text-align: center;
+	margin-right: 25px;
+	bottom: 20px;
+}
+footer li { 
+	display: inline-block;
+	margin-right: 10px;
+}
+footer li a { 
+	color: white;
+	text-decoration: none;   
+}
+
+footer li a:hover { 
+	color: darkgrey;
+	cursor: pointer;   
+}
+
+footer img {
+    height: 40px;
+}
+
+
+#board_view .text-right {
+    text-align: right;
+}
+
+#board_view .text-right {
+    float: right;
+}
+
+#board_view .row p {
+    display: contents
+}
+
+
+#board_view .text-left {
+    text-align: left;
+}
+
+#board_view .row {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#board_view .row-content-left {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#board_view .row-content-right {
+    width: 20%;
+    /* display: inline-block; */
+    vertical-align: middle;
+    display: flex;
+    float: right;
+}
+
+#board_view .counter, .reply {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 200px;
+    margin: 5px;
+}
+
+#board_view .envelop-icon {
+    width: 5%;
+    display: inline-block;
+}
+
+#board_view .row-content {
+    display: inline-block;
+    height: 200px;
+    width: 112%;
+    vertical-align: middle;
+}
+
+#board_view .forum-topic {
+    width: 80%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.profile-picture {  
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+.avatar {
+    height: 45;
+    width: 45;
+    width: 65px;
+    position: relative;
+}
