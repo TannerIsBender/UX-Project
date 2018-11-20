@@ -127,6 +127,11 @@ p span {
 	padding-right: 12px;
 }
 
+#forum_view .section-right img {
+    float: left;
+	padding-right: 12px;
+}
+
 
 #forum_view .section-right {
     display: inline-block;
