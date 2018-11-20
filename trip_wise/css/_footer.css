@@ -76,6 +76,7 @@ main {
     left: 50%;
     top: 60%;
     width: 50%;
+	padding: 20px;
     /*text-align: center;*/
 }
 
@@ -86,6 +87,7 @@ main {
 
 .site_nav {
 	float: right;
+	padding: 25px;
 }
 
 /* Footer Start */
@@ -95,8 +97,8 @@ footer {
     background-color: #FF6347;
     color: white;
     text-align: right;
-    margin: 20px;
-	margin-top: 20px;
+    /*margin: 25px;*/
+	padding: 25px;
 }
 
 footer.socialMedia {
