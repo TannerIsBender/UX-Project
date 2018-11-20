@@ -122,6 +122,12 @@ p span {
     margin-bottom: 20px;
 }
 
+#forum_view .board-row img {
+    float: left;
+	padding-right: 12px;
+}
+
+
 #forum_view .section-right {
     display: inline-block;
     position: relative;
