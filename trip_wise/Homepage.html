@@ -127,6 +127,18 @@ body, html {
 			<br><br><br>
 	</main>
 
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 0,0,100px, 0;
+}
 
 <footer>
 	<br><br>
