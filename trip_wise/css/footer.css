@@ -108,11 +108,11 @@ main {
 }
 
 .search {
-  margin: 40px;
+  margin: 20px;
 }
 
 .search > h3 {
-  font-weight: light;
+  font-weight: medium;
 }
 
 .search > h1,
@@ -138,6 +138,7 @@ main {
   right: -4px;
   transform: rotate(135deg);
   box-shadow: 1px 0 #transparent;
+    cursor: pointer;
 }
 
 .search > div > input {
