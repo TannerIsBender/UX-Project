@@ -97,8 +97,7 @@ footer {
     background-color: #FF6347;
     color: white;
     text-align: right;
-    margin: 25px;
-	/*padding: 25px;*/
+	padding: 25px, 0, 0, 0;
 }
 
 footer.socialMedia {
