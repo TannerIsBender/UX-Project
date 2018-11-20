@@ -119,6 +119,7 @@ p span {
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 15px;
+	background-color: #dfdce3;
 }
 
 #forum_view .category {
@@ -158,9 +159,12 @@ p span {
 	min-height: 400px;
 }
 
-
 #forum_view .row p {
     display: contents;
+}
+
+#forum_view .board-row p {
+	margin-left: 45px;
 }
 
 #forum_view {
