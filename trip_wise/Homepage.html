@@ -11,12 +11,12 @@
     </head>
 
 <body>
-		<nav>
+	<nav>
 		<div class="header_global">	
 			<div class="local_logo">
 				<a href="homepage.html"><img src="images/tripwise-logo.png" alt="Tripwise Logo" height="115"></a>
 			</div>
-			<div class="local_nav">
+		<div class="local_nav">
 				<ul>
 					<li><a href="Destinations.html">DESTINATIONS</a></li>
 					<li><a href="Forums.html">FORUMS</a></li>
@@ -41,7 +41,7 @@
 				</div>
 			</div>
 		</div>
-		</nav>
+	</nav>
 	
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -94,7 +94,13 @@ body, html {
 <div class="hero-image">
   <div class="hero-text">
     <h2 style>DESTINATION SEARCH</h2>
-    <p>SEARCH BOX GOES HERE</p><br>
+    <p><div>
+					<!-- search bar -->
+					<form action="/action_page.php">
+					  <input type="text" placeholder="Search.." name="search">
+					  <button type="submit"><i class="fa fa-search"></i></button>
+					</form>
+				</div></p><br>
     <button>SEARCH</button>
   </div>
 </div>
