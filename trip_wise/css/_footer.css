@@ -97,13 +97,13 @@ footer {
     background-color: #FF6347;
     color: white;
     text-align: right;
-	padding:25px;
 }
 
 footer.socialMedia {
     float: right;
     text-align: center;
-    margin-right: 25px;
+    /*margin-right: 25px;*/
+	padding: 25px;
 }
 
 footer li { 
