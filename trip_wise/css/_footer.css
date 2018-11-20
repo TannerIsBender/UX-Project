@@ -91,6 +91,8 @@ main {
 	padding: 20px;
 }
 
+
+
 * {
   font-family: 'Montserrat', sans-serif;
   padding: 0;
@@ -140,7 +142,7 @@ html, body {
   top: 40px;
   right: 2px;
   transform: rotate(135deg);
-  box-shadow: 1px 0 #0091c2;
+  box-shadow: 1px 0 #transparent;
 }
 
 .search > div > input {
