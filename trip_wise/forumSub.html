@@ -128,7 +128,8 @@
 					</p>
 					</div>
 					<div class="body-footer">
-						<p>+ | Quote | Liked by: [likes, variable]</p>
+						<p><button onclick="giverep()">+</button> | Quote | Liked by: [likes, variable]</p>
+						<p id="rep"></p>
 					</div>
 				</div>
 				
@@ -148,7 +149,8 @@
 					</p>
 					</div>
 					<div class="body-footer">
-						<p>+ | Quote | Liked by: [likes, variable]</p>
+						<p><button onclick="giverep2()">+</button> | Quote | Liked by: [likes, variable]</p>
+						<p id="rep2"></p>
 					</div>
 				</div>
 				
@@ -176,4 +178,18 @@
 </footer>
                 
 </body>
+<script>
+	var repu1 = 0;
+	var repu2 = 0;
+	function giverep(){
+	repu1++;
+	document.getElementById("rep").innerHTML=repu1;
+	window.alert("You've given this user positive reputation!");
+	}
+	function giverep2(){
+	repu2++;
+	document.getElementById("rep2").innerHTML=repu2;
+	window.alert("You've given this user positive reputation!");
+	}
+</script>
 </html>
