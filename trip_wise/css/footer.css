@@ -53,6 +53,13 @@ main {
     height: 130px;
 }
 
+.header_global:hover {
+    position: relative;
+    top: 0px;
+    width: cover;
+    height: 130px;
+}
+
 .local_nav {
     position: absolute;
     float: center;
