@@ -59,6 +59,15 @@ main {
     top: 8%;
 }
 
+/* mouse over link */
+
+.local_nav:hover {
+    position: absolute;
+    float: center;
+    top: 8%;
+    color: #BADA55;
+}
+
 .local_logo img {
     position: absolute;
     top: 5%;
@@ -104,6 +113,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   cursor: default;
 }
 
