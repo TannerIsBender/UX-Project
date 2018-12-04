@@ -137,7 +137,7 @@
           <!-- search bar -->
           <form action="/action_page.php">
             <input type="text" placeholder="Search.." name="search">
-            <button type="submit" onclick="sendAlert()"><i class="fa fa-search"></i></button>
+            <button type="submit"><i class="fa fa-search"></i></button>
           </form>
         </div>
       </div>
@@ -150,19 +150,15 @@
             <h1>Sign Up</h1>
             <form method="post">
             <div>
-                <label for="dname"></label>
-                <input type="text" placeholder="Display Name" name="dname" required>
+                <input type="text" id="dname" placeholder="Display Name">
 
-                <label for="email"></label>
-                <input type="text" placeholder="Email Address" name="email" required>
+                <input type="text" id="email" placeholder="Email Address">
                 
-                <label for="password"></label>
-                <input type="password" placeholder="Enter Password" name="password" required>
+                <input type="password" id="password" placeholder="Enter Password">
                 
-                <label for="rewritepassword"></label>
-                <input type="password" placeholder="Rewrite Password" name="rewritepassword" required>
+                <input type="password" placeholder="Rewrite Password" name="rewritepassword">
                 <br>
-                <input type="submit" name="login"><br>
+                <input onclick="sendAlert()" type="submit" name="login"><br>
                 <br>
                 <label>
                     <input type="checkbox" checked="checked" name="updates"> Send Me News And Updates
@@ -195,11 +191,14 @@
     </div>
 </footer>
 <script>
-	var name = document.getElementById("dname").value;
+	var user = document.getElementById("dname").value;
 	var email = document.getElementById("email").value;
 	var password = document.getElementById("password").value;
 	function sendAlert() {
-		window.alert("Name: " + name + " | Email: " + email + " | Password: " + password);
+		window.alert("Congratulations, you have registered a new user!" +
+		"\n Username: " + user +
+		"\n Email: " + email +
+		"\n Password: " + password);
 	}
 </script>
 </body>
