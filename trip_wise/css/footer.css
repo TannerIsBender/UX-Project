@@ -53,13 +53,6 @@ main {
     height: 130px;
 }
 
-.header_global:hover {
-    position: relative;
-    top: 0px;
-    width: cover;
-    height: 130px;
-}
-
 .local_nav {
     position: absolute;
     float: center;
@@ -69,10 +62,7 @@ main {
 /* mouse over link */
 
 .local_nav:hover {
-    position: absolute;
-    float: center;
-    top: 8%;
-    color: #BADA55;
+    color: rgb(#FFF);
 }
 
 .local_logo img {
