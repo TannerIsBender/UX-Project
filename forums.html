@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+	<title>Forums</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
+	<style>
+	
+	#forum_view .content-main {
+    border: 1px solid black;
+	width: 60%;
+}
+#forum_view .content-right {
+    border: 1px solid black;
+    
+	float: right;
+}
+
+#forum_view .text-right {
+    text-align: right;
+    background-color: #4abdac;
+	color: white;
+}
+
+#forum_view .text-right {
+    float: right;
+}
+
+#forum_view .row {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+	background-color: #dfdce3;
+}
+
+#forum_view .category {
+	background-color: #dfdce3;
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#forum_view .board-row img {
+    float: left;
+	padding-bottom: 8px;
+	padding-right: 12px;
+}
+
+#forum_view .section-right img {
+    float: left;
+	padding-right: 12px;
+}
+
+
+#forum_view .section-right {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #dfdce3;
+}
+
+#sidebar {
+	float: right; 
+	width: 25%;
+	min-height: 400px;
+}
+
+#forum_view .row p {
+    display: contents;
+}
+
+#forum_view .board-row p {
+	margin-left: 45px;
+}
+
+#forum_view {
+	margin: auto;
+	overflow:auto;
+}
+
+
+#forum_view .text-left {
+    text-align: left;</style>
+</head>
+<body>
+	<nav>
+    <div class="header_global"> 
+      <div class="local_logo">
+        <a href="homepage.html"><img src="./tripwise-logo.png" alt="Tripwise Logo" height="115"></a>
+      </div>
+    <div class="local_nav">
+	    <br><br><br><br>
+        <ul>
+          <li><a href="Destinations.html">DESTINATIONS</a></li>
+          <li><a href="Forums.html">FORUMS</a></li>
+          <li><a href="login.html">ACCOUNT</a></li>
+        </ul>
+      </div>
+      <div class="site_nav">
+        <div>
+          <!-- dropdown button in top right -->
+          <select>
+            <option value="english">English</option>
+            <option value="french">French</option>
+            <option value="german">German</option>
+          </select>
+        </div>
+        <div>
+          <!-- search bar -->
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <main>
+    	<div id="forum_view">
+		<!-- Start new Topic div -->
+			<div class="row">
+				<p class="text-left">Forums</p>
+				<a class="text-right float-right" href="newThread.html">Start New Topic</a>
+			</div>
+
+			<div id="main">
+				<div class="category">
+					<H2>Official</H2>
+					<div class="board-row">
+						<img src="./images/announcement.png">
+						<a href="boardView.html"><h3>Announcements</h3></a>
+						<p>All Trip Wise announcements will be posted in this board.</p>
+					</div>
+					<div class="board-row">
+						<img src="./images/giveaway.png">
+						<a href="boardView.html"><h3>Giveaways</h3></a>
+						<p>All Official Giveaways will be hosted here.</p>
+					</div>
+				</div>
+				<div class="category">
+					<H2>Community</H2>
+					<div class="board-row">
+						<img src="./images/general.png">
+						<a href="boardView.html"><h3>General Discussions</h3></a>
+						<p>Interact with our amazing community about anything!</p>
+					</div>
+					<div class="board-row">
+						<img src="./images/intro.png">
+						<a href="boardView.html"><h3>Introductions</h3></a>
+						<p>Are you new? Tell us your travel plans.</p>
+					</div>
+					<div class="board-row">
+						<img src="./images/events.png">
+						<a href="boardView.html"><h3>Events</h3></a>
+						<p>Events here are posted by members of the community!</p>
+					</div>
+					<div class="board-row">
+						<img src="./images/misc.png">
+						<a href="boardView.html"><h3>Misc</h3></a>
+						<p>All miscellaneous threads will be posted in this board.</p>
+					</div>
+				</div>
+        </div>
+        <div id = "sidebar">
+            <div class="section-right">
+                <h3>New Topics</h3>
+                <div class="row">
+					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
+                    <h4>Topic Title<br>
+					<p>By Author Posted TIME</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
+                    <h4>Topic Title<br>
+					<p>By Author Posted TIME</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
+                    <h4>Topic Title<br>
+					<p>By Author Posted TIME</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
+                    <h4>Topic Title<br>
+					<p>By Author Posted TIME</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
+                    <h4>Topic Title<br>
+					<p>By Author Posted TIME</p>
+					</h4>
+                </div>             
+            </div>
+			<br>
+            <div class="section-right">
+                <h3>Top Contributors</h3>
+                <div class="row">
+					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
+                    <h4>Display Name<br>
+					<p>Reputation #</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
+                    <h4>Display Name<br>
+					<p>Reputation #</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
+                    <h4>Display Name<br>
+					<p>Reputation #</p>
+					</h4>
+                </div>  
+            </div>
+        </div>
+	</div>
+</main>
+    <footer>
+	<br><br>
+        <div class="footer">	
+        <div class="socialMedia">            
+            <ul>
+                <li><a href="#"><img src="./facebook-icon.png"></a></li> 
+                <li><a href="#"><img src="./snapchat-icon.png"></a></li>
+    
+                <li><a href="#"><img src="./instagram-icon.png"></a></li>
+                <li><a href="#"><img src="./twitter-icon.png"></a></li>
+            </ul>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                 <li><a href="#">Contact Us</a></li>
+                 <li><a href="#">TOS</a></li>
+            </ul>
+        </div>
+	</div>
+</footer>
+
+    
+</body>
+</html>
