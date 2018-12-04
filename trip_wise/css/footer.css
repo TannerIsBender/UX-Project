@@ -62,10 +62,7 @@ main {
 /* mouse over link */
 
 .local_nav:hover {
-    position: absolute;
-    float: center;
-    top: 8%;
-    color: #BADA55;
+    color: rgb(#FFF);
 }
 
 .local_logo {
