@@ -26,7 +26,7 @@ h3 {
 
 p{
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 body {
@@ -59,13 +59,8 @@ main {
     top: 8%;
 }
 
-/* mouse over link */
-
-.local_nav:hover {
-    color: rgb(#FFF);
-}
-
 .local_logo img {
+    width: 115px;
     position: absolute;
     top: 5%;
     float: left;
@@ -87,12 +82,20 @@ main {
     top: 60%;
     width: 50%;
     padding: 20px;
-    /*text-align: center;*/
+    text-align: center;
 }
 
 .local_nav li a {
     text-decoration: none;
+    font-size: 18px;
     color: #373737;
+}
+
+/* mouse over menu link items */
+
+.local_nav li a:hover {
+    text-decoration: none;
+    color: #4ABDAC;
 }
 
 .site_nav {
