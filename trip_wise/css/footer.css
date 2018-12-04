@@ -68,7 +68,7 @@ main {
     color: #BADA55;
 }
 
-.local_logo img {
+.local_logo {
     position: absolute;
     top: 5%;
     float: left;
