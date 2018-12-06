@@ -53,12 +53,6 @@ main {
     height: 130px;
 }
 
-.local_nav {
-    float: left;
-    margin-top: 80px;
-}
-
-
 .local_logo img {
     height: 115px;
 
@@ -71,6 +65,11 @@ main {
     margin: none;
     border: none;
     padding: none;
+}
+
+.local_nav {
+    float: left;
+    margin-top: 80px;
 }
 
 .local_nav ul {
