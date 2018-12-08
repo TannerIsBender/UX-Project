@@ -26,12 +26,13 @@
 
 #forum_view .text-right {
     text-align: right;
-    background-color: #4abdac;
-	color: white;
+    background-color: transparent;
+    text-decoration: none
 }
 
 #forum_view .text-right {
     float: right;
+    text-decoration: none
 }
 
 #forum_view .row {
@@ -42,11 +43,11 @@
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 15px;
-	background-color: #dfdce3;
+	background-color: #ebeaee;
 }
 
 #forum_view .category {
-	background-color: #dfdce3;
+	background-color: #ebeaee;
     display: inline-block;
     position: relative;
     border: 1px solid black;
@@ -73,7 +74,7 @@
     border: 1px solid black;
     padding: 5px 10px;
     margin-bottom: 20px;
-    background-color: #dfdce3;
+    background-color: #ebeaee;
 }
 
 
@@ -123,86 +124,92 @@
     <main>
     	<div id="forum_view">
 		<!-- Start new Topic div -->
-			<div class="row">
-				<p class="text-left">Forums</p>
-				<a class="text-right float-right" href="newThread.html">Start New Topic</a>
+        <br>
+			<h2 style>FORUMS</h2>
+            <br>
+            <div class="category">
+				<h4><a href="newThread.html">Start New Topic</a></h4>
 			</div>
 
 			<div id="main">
 				<div class="category">
-					<H2>Official</H2>
+					<h3>Official</h3>
 					<div class="board-row">
 						<img src="./announcement.png">
-						<a href="boardView.html"><h3>Announcements</h3></a>
-						<p>All Trip Wise announcements will be posted in this board.</p>
+						<a href="boardView.html"><h4>Announcements</h4></a>
+						<p>Tripwise.com has scheduled maintenance on 12/15/2018 at 12:00 AM (EST)</p>
 					</div>
 					<div class="board-row">
 						<img src="./giveaway.png">
-						<a href="boardView.html"><h3>Giveaways</h3></a>
-						<p>All Official Giveaways will be hosted here.</p>
+						<a href="boardView.html"><h4>Giveaways</h4></a>
+						<p>Enter to win free flights and body guards to Caracas, Venezuela</p>
+                        <br>
 					</div>
 				</div>
 				<div class="category">
-					<H2>Community</H2>
+					<h3>Community</h3>
 					<div class="board-row">
 						<img src="./general.png">
-						<a href="boardView.html"><h3>General Discussions</h3></a>
-						<p>Interact with our amazing community about anything!</p>
+						<a href="boardView.html"><h4>General Discussions</h4></a>
+						<p>Interact with the tripwise amazing community about anything!</p>
 					</div>
 					<div class="board-row">
 						<img src="./intro.png">
-						<a href="boardView.html"><h3>Introductions</h3></a>
-						<p>Are you new? Tell us your travel plans.</p>
+						<a href="boardView.html"><h4>Introductions</h4></a>
+						<p>Are you new? Share your travel plans!</p>
 					</div>
 					<div class="board-row">
 						<img src="./events.png">
-						<a href="boardView.html"><h3>Events</h3></a>
-						<p>Events here are posted by members of the community!</p>
+						<a href="boardView.html"><h4>Events</h4></a>
+						<p>What are the must-attends in your current location?</p>
 					</div>
 					<div class="board-row">
 						<img src="./misc.png">
-						<a href="boardView.html"><h3>Misc</h3></a>
-						<p>All miscellaneous threads will be posted in this board.</p>
+						<a href="boardView.html"><h4>Other</h4></a>
+						<p>Anything goes, but don't get crazy.</p>
 					</div>
+                    <br>
 				</div>
         </div>
         <div id="sidebar">
             <div class="section-right">
                 <h3>New Topics</h3>
+                <br>
                 <div class="row">
 					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
-                    <h4>Topic Title<br>
-					<p>By Author Posted TIME</p>
+                    <h4><small>Krakozhia Fallen</small><br>
+					<p>By John B.<br>Posted 12/7/2018</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
+                    <h4>Top FL Beaches?<br>
+					<p>By Jacob S.<br>Posted 12/7/2018</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
+                    <h4>Calgary Flames<br>
+					<p>By J. Jingleheimer<br>Posted 12/7/2018</p>
+					</h4>
+                </div>  
+                <div class="row">
+					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
+                    <h4>Hurricanes<br>
+					<p>By Schmidtty D.<br>Posted 12/7/2018</p>
 					</h4>
                 </div>  
                 <div class="row">
 					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
                     <h4>Topic Title<br>
-					<p>By Author Posted TIME</p>
-					</h4>
-                </div>  
-                <div class="row">
-					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
-                    <h4>Topic Title<br>
-					<p>By Author Posted TIME</p>
-					</h4>
-                </div>  
-                <div class="row">
-					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
-                    <h4>Topic Title<br>
-					<p>By Author Posted TIME</p>
-					</h4>
-                </div>  
-                <div class="row">
-					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
-                    <h4>Topic Title<br>
-					<p>By Author Posted TIME</p>
+					<p>By G. Foreman<br>Posted 12/7/2018</p>
 					</h4>
                 </div>             
             </div>
 			<br>
             <div class="section-right">
                 <h3>Top Contributors</h3>
+                <br>
                 <div class="row">
 					<img class="newTopics-avatar" src="./userForumAvatar.png" height="70" width="55">
                     <h4>Display Name<br>
@@ -225,9 +232,10 @@
         </div>
 	</div>
 </main>
-    <footer>
-	<br><br>
-        <div class="footer">	
+<footer>
+  <br><br>
+  
+        <div class="footer" position="absolute" bottom="5px">  
         <div class="socialMedia">            
             <ul>
                 <li><a href="#"><img src="./facebook-icon.png"></a></li> 
@@ -237,12 +245,12 @@
                 <li><a href="#"><img src="./twitter-icon.png"></a></li>
             </ul>
             <ul>
-                <li><a href="#">About Us</a></li>
-                 <li><a href="#">Contact Us</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                 <li><a href="#">CONTACT US</a></li>
                  <li><a href="#">TOS</a></li>
             </ul>
         </div>
-	</div>
+  </div>
 </footer>
 
     
