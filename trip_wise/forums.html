@@ -4,20 +4,25 @@
 	<title>Forums</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="global.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
     <link rel="shortcut icon" type="image/png" href="./tripwise-logo.png"/>
 	<style>
 	
-	#forum_view .content-main {
-    border: 1px solid black;
-	width: 60%;
+
+#main {
+            float: left;
+            width: 73%;
+            
+        }
+        
+#sidebar {
+	float: right; 
+	width: 25%;
+	min-height: 400px;
 }
-#forum_view .content-right {
-    border: 1px solid black;
-    
-	float: right;
-}
+        
+
 
 #forum_view .text-right {
     text-align: right;
@@ -66,24 +71,18 @@
     display: inline-block;
     position: relative;
     border: 1px solid black;
-    padding: 10px;
+    padding: 5px 10px;
     margin-bottom: 20px;
     background-color: #dfdce3;
 }
 
-#sidebar {
-	float: right; 
-	width: 25%;
-	min-height: 400px;
-}
+
 
 #forum_view .row p {
     display: contents;
 }
 
-#forum_view .board-row p {
-	margin-left: 45px;
-}
+
 
 #forum_view {
 	margin: auto;
@@ -91,8 +90,7 @@
 }
 
 
-#forum_view .text-left {
-    text-align: left;</style>
+</style>
 </head>
 <body>
 	<nav>
@@ -101,7 +99,7 @@
         <a href="Homepage.html"><img src="./tripwise-logo.png" alt="Tripwise Logo" height="115"></a>
       </div>
     <div class="local_nav">
-	    <br><br><br><br>
+	    
         <ul>
           <li><a href="Destinations.html">DESTINATIONS</a></li>
           <li><a href="Forums.html">FORUMS</a></li>
@@ -134,12 +132,12 @@
 				<div class="category">
 					<H2>Official</H2>
 					<div class="board-row">
-						<img src="./images/announcement.png">
+						<img src="./announcement.png">
 						<a href="boardView.html"><h3>Announcements</h3></a>
 						<p>All Trip Wise announcements will be posted in this board.</p>
 					</div>
 					<div class="board-row">
-						<img src="./images/giveaway.png">
+						<img src="./giveaway.png">
 						<a href="boardView.html"><h3>Giveaways</h3></a>
 						<p>All Official Giveaways will be hosted here.</p>
 					</div>
@@ -147,28 +145,28 @@
 				<div class="category">
 					<H2>Community</H2>
 					<div class="board-row">
-						<img src="./images/general.png">
+						<img src="./general.png">
 						<a href="boardView.html"><h3>General Discussions</h3></a>
 						<p>Interact with our amazing community about anything!</p>
 					</div>
 					<div class="board-row">
-						<img src="./images/intro.png">
+						<img src="./intro.png">
 						<a href="boardView.html"><h3>Introductions</h3></a>
 						<p>Are you new? Tell us your travel plans.</p>
 					</div>
 					<div class="board-row">
-						<img src="./images/events.png">
+						<img src="./events.png">
 						<a href="boardView.html"><h3>Events</h3></a>
 						<p>Events here are posted by members of the community!</p>
 					</div>
 					<div class="board-row">
-						<img src="./images/misc.png">
+						<img src="./misc.png">
 						<a href="boardView.html"><h3>Misc</h3></a>
 						<p>All miscellaneous threads will be posted in this board.</p>
 					</div>
 				</div>
         </div>
-        <div id = "sidebar">
+        <div id="sidebar">
             <div class="section-right">
                 <h3>New Topics</h3>
                 <div class="row">
@@ -251,9 +249,9 @@
 </body>
     <script type="text/javascript">
 function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 }
 </script>
 
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </html>

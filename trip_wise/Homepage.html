@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <head>
+    
 	<title>HOME</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
-   	<link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
+   	<link rel="stylesheet" type="text/css" href="global.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
-        <link rel="shortcut icon" type="image/png" href="./tripwise-logo.png"/>
+    <link rel="shortcut icon" type="image/png" href="./tripwise-logo.png"/>
     
 
 
@@ -21,7 +21,7 @@ body, html {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/tripwise-hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./tripwise-hero.jpg);
   height: 85%;
   background-position: center;
   background-repeat: no-repeat;
@@ -99,12 +99,9 @@ main img{
   <nav>
     <div class="header_global"> 
       <div class="local_logo">
-        <nav>
-          <a href="Homepage.html"><img src="./tripwise-logo.png" alt="Tripwise Logo" height="115" /></a>
-       </nav>
+          <a href="Homepage.html"><img src="./tripwise-logo.png" alt="Tripwise Logo" height="115"></a>
       </div>
     <div class="local_nav">
-	    <br><br><br><br>
         <ul>
           <li><a href="Destinations.html">DESTINATIONS</a></li>
           <li><a href="Forums.html">FORUMS</a></li>
@@ -123,24 +120,24 @@ main img{
         </div>
       </div>
     </div>
-  </nav>
+    </nav>
 
 <div class="hero-image">
   <div class="hero-text">
 
     <h2 style>DESTINATION SEARCH</h2>
-    <p><div>
+    
 					
 	  <!-- destination search bar -->
 	  
-<div class="flexbox">
-  <div class="search">
-    <div>
-      <input type="text" placeholder="" required>
-    </div>
-  </div>
-</div>
-	  </div></p><br>
+        <div class="flexbox">
+          <div class="search">
+            <div>
+              <input type="text" placeholder="      Type destination here      " required>
+            </div>
+          </div>
+        </div>
+	  <br>
     <button><h3 class="search">SEARCH</h3></button>
   </div>
 </div>
@@ -160,11 +157,7 @@ main img{
  				  <div class="Tipimg"><a href="Destinations.html"><h3 class="Tips">NEW ZEALAND</h3><img src="./newzealand.jpg" ></a></div>
   				<div class="Tipimg"><a href="Destinations.html"><h3 class="Tips">ICELAND</h3><img src="./iceland.jpg"> </a></div>
 				
-			</div>
 			
-			
-			
-		</div>
 
 <br>			
 </main>
@@ -172,7 +165,7 @@ main img{
 <footer>
   <br><br>
   
-        <div class="footer" position="absolute" bottom:"5px">  
+        <div class="footer" position="absolute" bottom="5px">  
         <div class="socialMedia">            
             <ul>
                 <li><a href="#"><img src="./facebook-icon.png"></a></li> 
@@ -193,9 +186,9 @@ main img{
 </body>
 <script type="text/javascript">
 function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 }
 </script>
 
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </html>
